@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> MEAM 3.3
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+<<<<<<< HEAD
+    tools:context="com.example.computer.signinapp.MyAccount">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="Name"
+            android:textSize="15dp"
+            android:textColor="@color/common_plus_signin_btn_text_dark_disabled"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Ename"
+            android:hint="Name"
+            android:inputType="text"
+            android:layout_margin="15dp">
+
+        </EditText>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="Email"
+            android:textSize="15dp"
+            android:textColor="@color/common_plus_signin_btn_text_dark_disabled"/>
+
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Uemail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="15dp">
+
+        </EditText>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="Password"
+            android:textSize="15dp"
+            android:textColor="@color/common_plus_signin_btn_text_dark_disabled"/>
+         <EditText
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Epassword"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_margin="15dp">
+
+    </EditText>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="Phone"
+            android:textSize="15dp"
+            android:textColor="@color/common_plus_signin_btn_text_dark_disabled"/>
+         <EditText
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ephone"
+        android:hint="phone"
+        android:inputType="phone"
+        android:layout_margin="15dp">
+
+    </EditText>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="Date of birth"
+            android:textSize="15dp"
+            android:textColor="@color/common_plus_signin_btn_text_dark_disabled"/>
+        <EditText
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edob"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:layout_margin="15dp">
+
+    </EditText>
+=======
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorBlack"
+    tools:context="com.example.computer.signinapp.MyAccount">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="My Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorgray"
+        android:textColorHint="@color/colorgray"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ename"
+                android:hint="Name"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:inputType="text"
+                android:layout_margin="15dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Uemail"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_margin="15dp">
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Epassword"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Ephone"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Edob"
+                android:hint="Date of birth"
+                android:inputType="date"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+>>>>>>> MEAM 3.3
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Record"
+            android:id="@+id/SaveEmp"
+<<<<<<< HEAD
+            android:onClick=""
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/Erole"
+            android:layout_weight="0.31" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+=======
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="140dp"
+            android:onClick=""
+            android:background="@drawable/drawable_shapebutton"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/Erole"
+            android:layout_weight="0.31" />
+
+
+</LinearLayout>
+
+    </RelativeLayout>
+
+>>>>>>> MEAM 3.3

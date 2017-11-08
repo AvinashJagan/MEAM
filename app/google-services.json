@@ -1,0 +1,61 @@
+{
+  "project_info": {
+<<<<<<< HEAD
+    "project_number": "948936322751",
+    "firebase_url": "https://signinapp-164e6.firebaseio.com",
+    "project_id": "signinapp-164e6",
+    "storage_bucket": "signinapp-164e6.appspot.com"
+=======
+    "project_number": "449978555126",
+    "firebase_url": "https://signinapp-ca5e2.firebaseio.com",
+    "project_id": "signinapp-ca5e2",
+    "storage_bucket": "signinapp-ca5e2.appspot.com"
+>>>>>>> MEAM 3.3
+  },
+  "client": [
+    {
+      "client_info": {
+<<<<<<< HEAD
+        "mobilesdk_app_id": "1:948936322751:android:51d184a44c784b19",
+=======
+        "mobilesdk_app_id": "1:449978555126:android:51d184a44c784b19",
+>>>>>>> MEAM 3.3
+        "android_client_info": {
+          "package_name": "com.example.computer.signinapp"
+        }
+      },
+      "oauth_client": [
+        {
+<<<<<<< HEAD
+          "client_id": "948936322751-s81br64mcsj748l9ts3afaesmcpgk3rj.apps.googleusercontent.com",
+=======
+          "client_id": "449978555126-pkqtu8eosr78ac0pvo2ht56mclb4sash.apps.googleusercontent.com",
+>>>>>>> MEAM 3.3
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+<<<<<<< HEAD
+          "current_key": "AIzaSyBfaQV1K0inbMItt14-2Kscy-g1LXDzzb8"
+=======
+          "current_key": "AIzaSyAlTOqfQv8gAVk_pD4ryRQpypUBN-B8z10"
+>>>>>>> MEAM 3.3
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
