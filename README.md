@@ -1,4 +1,10 @@
 MEAM (Miracle Employee Activity Monitoring)
+
+How Does Estimote Beacons Work:
+
+IBeacons are small wireless devices that continuously transmits the signals,these signals will detects near by smartphones using the BLE(Bluetooth Low energy) technology,when smartphone detects the beacon signal then it reads the beacon identification number to calculate the distance to the beacon based on this data it triggers an action in the mobile application.
+
+
  
 Role: Administrator/HR
  
